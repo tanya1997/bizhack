@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "787337235459",
+    "firebase_url": "https://bizhackdaytwo.firebaseio.com",
+    "project_id": "bizhackdaytwo",
+    "storage_bucket": "bizhackdaytwo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787337235459:android:aed79bb10e1a2634",
+        "android_client_info": {
+          "package_name": "com.example.empyrean.bizhackdaytwo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787337235459-atac6flmhcnlfgp822m3rob2ve0mggng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.empyrean.bizhackdaytwo",
+            "certificate_hash": "655f8dfd826a56ea0d75ff5e5200e3732c7327b7"
+          }
+        },
+        {
+          "client_id": "787337235459-r12hf20q12km8bq5i1tgkffljk1nrs31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpqGc3VAj5sZlQsCSYv7MlPuTpUkiYDys"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787337235459-r12hf20q12km8bq5i1tgkffljk1nrs31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
