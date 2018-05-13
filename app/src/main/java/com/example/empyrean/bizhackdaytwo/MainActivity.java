@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         FirebaseMessaging.getInstance().subscribeToTopic("anytopic");
+        setTitle("Smart stadium");
 
         btnShop = findViewById(R.id.btnShop);
         btnCash = findViewById(R.id.btnCash);

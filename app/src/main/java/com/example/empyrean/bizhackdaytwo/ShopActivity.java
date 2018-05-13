@@ -17,6 +17,7 @@ public class ShopActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shop);
+        setTitle("Smart stadium");
         RecyclerView rv = (RecyclerView)findViewById(R.id.rv);
 
         rv.setHasFixedSize(true);

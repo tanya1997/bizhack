@@ -40,6 +40,7 @@ public class TradeActivity extends AppCompatActivity implements TradeInterface {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("Smart stadium");
         setContentView(R.layout.activity_trade);
         lvTrades = findViewById(R.id.lvTrades);
         lvTrades.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -47,8 +48,8 @@ public class TradeActivity extends AppCompatActivity implements TradeInterface {
             public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {
 
                 final Integer cost = mainLIst.get(position).cost;
-                final String[] stavka = new String[]{String.valueOf(cost * 0.8), String.valueOf(cost * 1.2), String.valueOf(cost * 2)};
-                AlertDialog.Builder builder = new AlertDialog.Builder(ctx,  android.R.style.Theme_Material_Dialog_Alert);
+                final String[] stavka = new String[]{String.valueOf(cost * 1.2), String.valueOf(cost * 1.4), String.valueOf(cost * 2)};
+                AlertDialog.Builder builder = new AlertDialog.Builder(ctx);
                 builder.setTitle("Сделайте ставку")
                         .setItems(stavka, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
