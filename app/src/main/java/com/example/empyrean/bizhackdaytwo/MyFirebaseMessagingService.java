@@ -59,17 +59,17 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
         // Converting drawable icon to bitmap for default notification ICON.
-        Bitmap DefaultIconBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher);
+        Bitmap DefaultIconBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.stadium);
 
         // Building Notfication.
         NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
 
                 // Adding Default Icon to Notification bar.
-                //.setLargeIcon(BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher))
+               .setLargeIcon(BitmapFactory.decodeResource(getResources(), R.drawable.stadium))
 
                 // Setting up Title.
                 .setContentTitle(messageTitle)
-                .setSmallIcon(R.mipmap.ic_launcher)
+                .setSmallIcon(R.drawable.stadium)
 
                 // Setting the default msg coming from server into Notification.
                 .setContentText(messageBody)
