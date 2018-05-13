@@ -43,7 +43,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         Log.d("test4", messageTitle);
         Log.d("test5", messageBody);
         // Creating Intent.
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, TradeActivity.class);
 
         // Device vibrate pattern.
         long[] pattern = {500,500,500,500,500};
